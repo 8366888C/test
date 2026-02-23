@@ -1,0 +1,21 @@
+changelog:
+  exclude:
+    labels:
+      - skip-release
+      - internal
+  categories:
+    - title: 🚧 Breaking Changes
+      labels:
+        - breaking
+    - title: ✨ New Features
+      labels:
+        - feat
+        - enhancement
+    - title: 🐛 Bug Fixes
+      labels:
+        - fix
+        - bug
+    - title: 🛠️ Maintenance
+      labels:
+        - chore
+        - refactor

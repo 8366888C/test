@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ "$AUREUS_INTERNAL_PUSH" = "true" ]; then
+  exit 0
+fi
+npx aureus release --yes

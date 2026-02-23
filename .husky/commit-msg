@@ -1,0 +1,1 @@
+npx aureus verify -- $1
